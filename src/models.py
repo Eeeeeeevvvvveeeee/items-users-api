@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean
 
-from ..Database.database import Base
+from src.database import Base
 
 
 class Item(Base):
